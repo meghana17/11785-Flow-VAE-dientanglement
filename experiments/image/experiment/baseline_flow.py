@@ -72,7 +72,7 @@ class FlowExperiment(BaseExperiment):
                                              scheduler_epoch=scheduler_epoch,
                                              log_path=log_path,
                                              eval_every=args.eval_every,
-                                             check_every=args.check_every)
+                                             check_every=1)
 
         # Store args
         self.create_folders()

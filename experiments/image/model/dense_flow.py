@@ -21,7 +21,7 @@ def dim_from_shape(x):
 
 class DenseFlow(Flow):
 
-    def __init__(self, data_shape=(3, 32, 32), block_config=[2, 4, 3], layers_config=[2, 2, 2],  layer_mid_chnls=[6, 12, 20], growth_rate=None, num_bits=8, checkpointing=True):
+    def __init__(self, data_shape=(3, 32, 32), block_config=[4, 8, 6], layers_config=[4, 4, 4],  layer_mid_chnls=[8, 16, 20], growth_rate=None, num_bits=8, checkpointing=True):
 
         transforms = []
         current_shape = data_shape
