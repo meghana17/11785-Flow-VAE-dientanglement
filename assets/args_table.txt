@@ -1,0 +1,37 @@
++-----------------+-----------------------------------------------------------+
+|       Arg       |                           Value                           |
++-----------------+-----------------------------------------------------------+
+|      epochs     |                             32                            |
+|       seed      |                             0                             |
+|      device     |                            cuda                           |
+|     parallel    |                            None                           |
+|      resume     |                            None                           |
+|       name      |                    2021-12-03_02-22-16                    |
+|     project     |                 cifar10_8bit_densenet-flow                |
+|    eval_every   |                             1                             |
+|   check_every   |                             1                             |
+|      log_tb     |                           False                           |
+|    log_wandb    |                           False                           |
+|     dataset     |                          cifar10                          |
+|     num_bits    |                             8                             |
+|    batch_size   |                             32                            |
+|   num_workers   |                             4                             |
+|    pin_memory   |                            True                           |
+|   augmentation  |                            eta                            |
+|   num_classes   |                             10                            |
+|   growth_rate   |                             10                            |
+|  checkpointing  |                           False                           |
+|    block_conf   |                         [8, 6, 2]                         |
+| layer_mid_chnls |                        [48, 48, 48]                       |
+|   layers_conf   |                         [5, 6, 20]                        |
+|    optimizer    |                           adamax                          |
+|        lr       |                           1e-05                           |
+|      warmup     |                            5000                           |
+|     momentum    |                            0.9                            |
+|   momentum_sqr  |                           0.999                           |
+|      gamma      |                           0.9975                          |
+|  use_grad_norm  |                            0.0                            |
+|   start_model   | ./log/cifar10_8bit/densenet-flow/more/2021-11-30_17-37-32 |
+|    new_epochs   |                             32                            |
+|      new_lr     |                           1e-05                           |
++-----------------+-----------------------------------------------------------+
